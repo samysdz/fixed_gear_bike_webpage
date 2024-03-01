@@ -1,4 +1,39 @@
-.grid{
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('./imgs/fundo_pneu.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    background-color: rgb(68, 17, 17, 0.4);
+}
+.grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 50px;;
+}
+.introducao {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(170, 170, 170);
+    background-color: rgb(68, 17, 17, 0.4);
+}
+
+.textao {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(255, 252, 60, 0.4);
+}
+
+.icones {
+    background-color: rgb(95, 158, 160, 0.4);
 }
