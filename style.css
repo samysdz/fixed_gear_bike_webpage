@@ -7,16 +7,20 @@ body {
     background-repeat: no-repeat;
 }
 
-img {
-    width: 100%;
-    height: auto;
-    background-color: rgb(68, 17, 17, 0.4);
+.inicio {
+    background-color: rgb(87, 87, 79, 0.2);
+    color: rgb(51, 12, 12);
+    padding-left: 10%;
+    padding-right: 10%;
 }
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 50px;;
+    margin: 50px;
+    outline: 2px solid rgb(68, 17, 17);
 }
+
 .introducao {
     font-size: 40px;
     display: flex;
@@ -24,6 +28,14 @@ img {
     align-items: center;
     color: rgb(170, 170, 170);
     background-color: rgb(68, 17, 17, 0.4);
+    outline: 2px solid rgb(68, 17, 17);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    background-color: rgb(68, 17, 17, 0.4);
+    outline: 2px solid rgb(68, 17, 17);
 }
 
 .textao {
@@ -31,9 +43,11 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:rgb(255, 252, 60, 0.4);
+    background-color: rgb(68, 17, 17, 0.4);
+    outline: 2px solid rgb(68, 17, 17);
 }
 
 .icones {
-    background-color: rgb(95, 158, 160, 0.4);
+    background-color: rgb(68, 17, 17, 0.4);
+    outline: 2px solid rgb(68, 17, 17);
 }
