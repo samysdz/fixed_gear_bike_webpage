@@ -52,3 +52,7 @@ img {
     background-color: rgb(68, 17, 17, 0.4);
     outline: 2px solid rgb(68, 17, 17);
 }
+
+.rodape {
+    background-color: rgb(95, 156, 54, 0.4);
+}
